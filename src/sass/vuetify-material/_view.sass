@@ -1,0 +1,48 @@
+.v-main__wrap
+  .container--fluid
+    padding-left: 30px
+    padding-right: 30px
+
+.v-application .headline
+  font-size: 25px !important
+  padding-bottom: 0
+
+.v-application .black--text
+  color: #333 !important
+
+.v-application .small
+  font-weight: 300
+  line-height: 2rem
+  small
+    font-weight: 400
+
+@media(max-width:960px)
+  .v-main__wrap
+    .container--fluid
+      padding-left: 15px
+      padding-right: 15px
+@media (min-width: 1024px) and (max-width: 1200px)
+  .v-stepper__header .v-stepper__step .v-stepper__step__step
+      height: 17px
+      min-width: 17px
+      width: 17px
+  .v-stepper__header .v-stepper__step .v-stepper__label
+    font-size: 10px !important
+    width: min-content
+
+@media (min-width: 1201px) and (max-width: 1447px)
+  .v-stepper__header
+     align-items: center !important
+  .v-stepper__header .v-stepper__step .v-stepper__step__step
+      height: 19px
+      min-width: 19px
+      width: 19px
+  .v-stepper__header .v-stepper__step .v-stepper__label
+    font-size: 13px !important
+    width: min-content
+
+@media (min-width: 1448px) and (max-width: 1600px)
+  .v-stepper__header .v-stepper__step .v-stepper__label
+    width: min-content
+  .v-stepper__header .v-stepper__step
+    padding:24px 12px
